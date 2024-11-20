@@ -8,10 +8,10 @@ window.addEventListener('load', function(event) {
 
         var campo_a = document.getElementById ('campo_a');
         var campo_b = document.getElementById ('campo_b');
-        var campo_C = document.getElementById ('campo_c');
+        var campo_c = document.getElementById ('campo_c');
 
         var resultado = parseInt(campo_a.value) + parseInt(campo_b.value);
-        campo_C.value = resultado
+        campo_c.value = resultado
         
     })
 
